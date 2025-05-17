@@ -105,7 +105,7 @@ class SublimeBookmarkCommand(sublime_plugin.WindowCommand):
         elif type == "goto_next":
             self._quickGoto(True)
 
-        elif type == "goto_previous":
+        elif type == "goto_prev":
             self._quickGoto(False)
 
         # BOOKMARK MODES
